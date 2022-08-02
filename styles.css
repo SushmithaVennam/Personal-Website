@@ -58,6 +58,9 @@ a:hover{
 
 .middle-container{
     min-width: 560px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
 }
 
 .bottom-container{
@@ -70,6 +73,8 @@ a:hover{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
 }
 
 .skill-row{
@@ -139,4 +144,9 @@ a:hover{
     background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
+  }
+
+  .rating {
+    color: gold;
+    font-size: 30px;
   }
